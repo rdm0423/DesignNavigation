@@ -21,6 +21,7 @@
 		713E08F1193F77D9006CA563 /* DesignNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E08F0193F77D9006CA563 /* DesignNavigationTests.m */; };
 		713E08FD193F7938006CA563 /* DNPlaygroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E08FB193F7938006CA563 /* DNPlaygroundViewController.m */; };
 		713E08FE193F7938006CA563 /* DNPlaygroundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 713E08FC193F7938006CA563 /* DNPlaygroundViewController.xib */; };
+		FFD366271A93B7710073C7B6 /* DNAppearanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD366261A93B7710073C7B6 /* DNAppearanceController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		713E08FA193F7938006CA563 /* DNPlaygroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNPlaygroundViewController.h; sourceTree = "<group>"; };
 		713E08FB193F7938006CA563 /* DNPlaygroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNPlaygroundViewController.m; sourceTree = "<group>"; };
 		713E08FC193F7938006CA563 /* DNPlaygroundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DNPlaygroundViewController.xib; sourceTree = "<group>"; };
+		FFD366251A93B7710073C7B6 /* DNAppearanceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNAppearanceController.h; sourceTree = "<group>"; };
+		FFD366261A93B7710073C7B6 /* DNAppearanceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNAppearanceController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 			children = (
 				713E08DA193F77D9006CA563 /* DNAppDelegate.h */,
 				713E08DB193F77D9006CA563 /* DNAppDelegate.m */,
+				FFD366251A93B7710073C7B6 /* DNAppearanceController.h */,
+				FFD366261A93B7710073C7B6 /* DNAppearanceController.m */,
 				713E08FA193F7938006CA563 /* DNPlaygroundViewController.h */,
 				713E08FB193F7938006CA563 /* DNPlaygroundViewController.m */,
 				713E08FC193F7938006CA563 /* DNPlaygroundViewController.xib */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				713E08FD193F7938006CA563 /* DNPlaygroundViewController.m in Sources */,
+				FFD366271A93B7710073C7B6 /* DNAppearanceController.m in Sources */,
 				713E08DC193F77D9006CA563 /* DNAppDelegate.m in Sources */,
 				713E08D8193F77D9006CA563 /* main.m in Sources */,
 			);
@@ -448,6 +454,7 @@
 				713E08F6193F77D9006CA563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		713E08F7193F77D9006CA563 /* Build configuration list for PBXNativeTarget "DesignNavigationTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +463,7 @@
 				713E08F9193F77D9006CA563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

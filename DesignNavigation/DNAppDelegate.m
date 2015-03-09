@@ -8,6 +8,7 @@
 
 #import "DNAppDelegate.h"
 #import "DNPlaygroundViewController.h"
+#import "DNAppearanceController.h"
 
 @implementation DNAppDelegate
 
@@ -16,6 +17,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[DNPlaygroundViewController new]];
+    
+    
+    
+    [DNAppearanceController setUpDefaultAppearance];
+    
     
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
